@@ -42,7 +42,7 @@ export const Home: React.FC = () => {
           transition={{ delay: 0.5 }}
           className="text-3xl md:text-5xl font-bold mt-6 text-center"
         >
-          Hi, I'm <span className="text-blue-400">Akshay Thakare</span>
+          Hi, I'm <span className="text-blue-400">Aanchal Sawadh</span>
         </motion.h1>
 
         {/* Typewriter Animation */}
