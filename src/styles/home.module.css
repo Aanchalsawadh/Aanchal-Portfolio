@@ -1,0 +1,46 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.profileImage {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 9999px;
+  margin-bottom: 2rem;
+  transition: transform 0.3s;
+}
+
+.profileImage:hover {
+  transform: scale(1.1);
+}
+
+.title {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 3.75rem;
+  }
+}
+
+.gradientText {
+  background: linear-gradient(to right, var(--accent-primary), #8B5CF6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.typewriterContainer {
+  height: 5rem;
+  margin-bottom: 2rem;
+  color: var(--text-secondary);
+}

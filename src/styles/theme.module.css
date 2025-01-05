@@ -1,0 +1,16 @@
+.darkTheme {
+  --bg-primary: #111827;
+  --bg-secondary: #1F2937;
+  --text-primary: #F9FAFB;
+  --text-secondary: #D1D5DB;
+  --accent-primary: #3B82F6;
+  --accent-hover: #2563EB;
+  --card-bg: #1F2937;
+  --border-color: #374151;
+}
+
+.wrapper {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100vh;
+}
