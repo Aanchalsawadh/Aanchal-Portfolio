@@ -85,7 +85,8 @@ export const Home: React.FC = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 1.1 }}
           className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4 text-center"
-        >
+         >
+         {/* this is the comment */}
           {[
             { skill: 'C#', description: 'Programming' },
             { skill: 'ASP.NET Core Web API', description: 'Backend' },
